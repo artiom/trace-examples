@@ -1,5 +1,5 @@
 source 'https://rubygems.org'
-ruby "2.1.7"
+ruby "2.2.7"
 
 gem 'connection_pool'
 gem 'json'
@@ -8,4 +8,4 @@ gem 'sinatra'
 gem 'sinatra-contrib'
 
 # tracing
-gem 'ddtrace', '0.8.0'
+gem 'ddtrace', :git => 'https://github.com/DataDog/dd-trace-rb.git', :ref => '5c6695b8272f35868deef9c54371f24670d65d79'
